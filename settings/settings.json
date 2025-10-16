@@ -1,0 +1,70 @@
+{
+  "ui_font_family": ".ZedSans",
+  "notification_panel": {},
+  "collaboration_panel": {
+    "button": false,
+    "dock": "right"
+  },
+  "show_whitespaces": "selection",
+  "minimap": {
+    "show": "always"
+  },
+  "active_pane_modifiers": {
+    "border_size": -1.0
+  },
+  "use_system_window_tabs": false,
+  "centered_layout": {},
+  "bottom_dock_layout": "contained",
+  "tabs": {
+    "show_close_button": "always",
+    "file_icons": true,
+    "git_status": true
+  },
+  "title_bar": {
+    "show_menus": true,
+    "show_branch_icon": true
+  },
+  "project_panel": {
+    "entry_spacing": "comfortable",
+    "dock": "left"
+  },
+  "ui_font_weight": 400.0,
+  "agent_buffer_font_size": 14.0,
+  "agent_ui_font_size": 16.0,
+  "buffer_font_weight": 400.0,
+  "debugger": {
+    "dock": "left",
+    "timeout": 2000
+  },
+  "terminal": {
+    "dock": "bottom"
+  },
+  "languages": {
+    "Python": {
+      "preferred_line_length": 120,
+      "inlay_hints": {
+        "enabled": false
+      },
+      "language_servers": ["ty", "!basedpyright", "..."]
+    }
+  },
+  "icon_theme": "VSCode Great Icons Theme",
+  "agent": {
+    "always_allow_tool_actions": true,
+    "default_profile": "write",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5"
+    },
+    "model_parameters": []
+  },
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+  "ui_font_size": 18.0,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "GitHub Dark Default"
+  }
+}
